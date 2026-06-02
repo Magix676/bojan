@@ -11,7 +11,7 @@ This is a basic bot template for [bojanSocial](https://bojan.social) containing 
 Create a bot via [bojanSocial's Bot portal](https://bojan.social/bots) and grab the token
 
 ```sh
-cp config.example.json
+cp ./config.example.json ./config.json
 # put token in config.json
 poetry install
 poetry run bojanexamplebot
