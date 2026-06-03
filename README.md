@@ -1,20 +1,41 @@
-# bojanSocial Python Bot Example
+# bojantis
 
-This is a basic bot template for [bojanSocial](https://bojan.social) containing basic API methods and Stream API integration via the `requests` module
+A simple Node.js bot for bojanSocial.
 
-> This is **NOT** a full SDK for Python, that will be coming soon along side JavaScript although feel free to make one yourself if you are desperate. It contains basic methods to communicate with bojanSocial's API. Full documentation will be coming out soon. 
+## Setup
 
-> Although however you can still make some meaningfull applications with this template. feel free to update.
-
-## setup
-
-Create a bot via [bojanSocial's Bot portal](https://bojan.social/bots) and grab the token
+1. Navigate to the bot folder:
 
 ```sh
-cp ./config.example.json ./config.json
-# put token in config.json
-poetry install
-poetry run bojanexamplebot
+cd bojantis
 ```
 
-Have fun!
+2. Copy the example config and add your bot token:
+
+```sh
+cp config.example.json config.json
+```
+
+3. Install dependencies:
+
+```sh
+npm install
+```
+
+4. Run the bot:
+
+```sh
+npm start
+```
+
+The bot will immediately post a message and then post again every hour.
+
+## Message format
+
+The bot sends:
+
+`Its (time) what are you doing bojansocial?`
+
+## Archive
+
+The previous Python bot example and repository contents were moved into the `archive/` folder.

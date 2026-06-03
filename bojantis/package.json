@@ -1,0 +1,11 @@
+{
+  "name": "bojantis",
+  "version": "1.0.0",
+  "description": "A simple bojanSocial Node.js bot that posts a message every hour.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
